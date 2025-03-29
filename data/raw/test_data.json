@@ -1,0 +1,10 @@
+[
+    {
+      "user_query": "What are the top destinations in Switzerland?",
+      "transformed_query": "/destinations?limit=10&sort=popularity",
+      "expected_response": ["Zermatt", "Interlaken", "Lucerne"],
+      "llm_generated_response": null,
+      "judge_label": null
+    }
+  ]
+  
