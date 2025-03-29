@@ -8,3 +8,8 @@ measure the results, then improve the prompt with Adalflow and finetune a light 
 
 
 Computed URL:https://opendata.myswitzerland.io/v1
+
+Tech Stack:
+
+posible APIs:
+
