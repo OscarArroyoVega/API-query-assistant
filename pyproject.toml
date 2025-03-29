@@ -1,0 +1,26 @@
+[tool.ruff]
+# Select rules
+select = [
+    "E",   # pycodestyle
+    "F",   # pyflakes
+    "I",   # isort
+    "B",   # flake8-bugbear
+    "W",   # pycodestyle warnings
+]
+
+# Ignore specific rules
+ignore = []
+
+# Line length
+line-length = 88
+
+# Python files to exclude
+exclude = [
+    ".git",
+    ".venv",
+    "__pycache__",
+]
+
+# Sort imports
+[tool.ruff.isort]
+known-first-party = ["your_package_name"]
